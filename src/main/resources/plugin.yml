@@ -1,0 +1,8 @@
+name: Skyblock
+version: '${project.version}'
+main: io.github.blocksnmore.skyblock.Skyblock
+api-version: 1.16
+prefix: [ Botleg Skebloc ]
+authors: [ MicRa, Blox ]
+description: Bootleg Hypickle Skeebloc
+website: Hypixel.net
