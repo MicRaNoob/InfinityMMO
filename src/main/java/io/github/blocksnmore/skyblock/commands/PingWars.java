@@ -22,6 +22,7 @@ public class PingWars extends BaseCommand {
             public void run() {
                 for (Player player : Bukkit.getOnlinePlayers()){
                     int playerPing = getPlayerPing(player);
+                    Bukkit.broadcast(Component.text(Color.applyColor("&d[Ping Wars] &ePing for " + player.getName() + ": " + (playerPing < 0 ? "Unknown" : String.valueOf(playerPing) )));
                 }
             }
         },20*1);
