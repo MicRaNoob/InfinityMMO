@@ -18,6 +18,7 @@ public final class Skyblock extends JavaPlugin {
         Skyblock.config = getConfig();
         Skyblock.commandManager = new PaperCommandManager(this);
         Skyblock.commandManager.registerCommand(new PingWars());
+        Skyblock.commandManager.registerDependency(Skyblock.class, "Main", this);
     }
 
     @Override
